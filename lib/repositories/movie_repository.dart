@@ -34,11 +34,11 @@ class MovieRepository {
 
       var url = "/movie/popular?page=$page";
 
-    //TODO: ver o campo certo e pa
+    
       if (title != null && title.isNotEmpty) {
         filter += "&original_title=$title";
       }
-      //TODO: ver o campo certo
+     
       if (genre != null && genre.isNotEmpty) {
         filter += "&genreIds=$genre";
       }
